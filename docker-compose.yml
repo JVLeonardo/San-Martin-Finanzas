@@ -1,0 +1,101 @@
+name: san-martin-finanzas
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: smf-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-sanmartinfinanzas}
+      POSTGRES_USER: ${POSTGRES_USER:-smf_local}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-smf_local_only}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  redis:
+    image: redis:7-alpine
+    container_name: smf-redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  api:
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile
+    container_name: smf-api
+    environment:
+      SPRING_PROFILES_ACTIVE: local
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-sanmartinfinanzas}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-smf_local}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-smf_local_only}
+      SPRING_DATA_REDIS_URL: redis://redis:6379
+      SPRING_FLYWAY_ENABLED: "true"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./services/api:/workspace
+      - maven_cache:/root/.m2
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8080/actuator/health/readiness"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: smf-web
+    environment:
+      NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL:-http://localhost:3000}
+      BACKEND_INTERNAL_URL: http://api:8080
+      REDIS_URL: redis://redis:6379
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./apps/web:/workspace
+      - web_node_modules:/workspace/node_modules
+      - web_next:/workspace/.next
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider --quiet http://127.0.0.1:3000 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+volumes:
+  postgres_data:
+    name: infra_postgres_data
+  redis_data:
+    name: infra_redis_data
+  maven_cache:
+  web_node_modules:
+  web_next:
