@@ -19,3 +19,6 @@ services/api/.mvn/wrapper/maven-wrapper.jar
 *.iml
 .DS_Store
 Thumbs.db
+
+# Documentation
+docs
