@@ -1,59 +1,47 @@
-# Interaction, Responsive, and Accessibility Rules
+# Interaction, responsive, and accessibility rules
 
-## Principles
+## Scope boundary
 
-- Clarity before persuasion.
-- Transparency before conversion.
-- Mobile first and progressive disclosure.
-- No dark patterns, false urgency, or implied approval.
-- Recoverable errors and visible feedback.
-- Clearly distinguish sensitive actions.
-- Preserve user-entered safe data after server errors.
+These are UI behaviors for the Sprint 1 Home and identity flows. They do not define backend policy, eligibility, KYC, financial evaluation, OTP limits, password policy, identity-provider configuration, or security-audit logic.
 
-## Forms
+## Interactive behavior
 
-- Labels are always visible; placeholders are supporting examples only.
-- Place validation errors near the affected field and provide a form-level error summary when needed.
-- Focus is always visibly indicated.
-- Loading and disabled states remain understandable with text/icon/state, never color alone.
-- Required service consent and optional marketing consent are separate; marketing is unchecked by default.
+- **Hover:** provide a restrained visual response; do not use motion as the sole signal.
+- **Focus:** always visible, with validated contrast and logical keyboard order.
+- **Active:** acknowledge a press without changing the action meaning.
+- **Disabled:** explain that the action is unavailable; do not disclose security or business causes.
+- **Loading:** prevent duplicate submission, retain context, and announce progress with text/state.
+- **Success:** confirm completion and offer one clear next action.
+- **Validation error:** show a form-level summary when appropriate and a specific message by the field.
+- **Server error:** use neutral retry copy and retain safe entered values. Never expose account existence, provider details, secrets, or audit data.
 
-## OTP
+Labels are always visible. Placeholders are supporting examples only. Required service consent and optional marketing consent are separate; marketing starts unchecked.
 
-- Show six visual positions or an equivalent accessible presentation.
-- Allow conceptual full-code paste.
-- Include focus, loading, success, invalid, expired, resend, cooldown, too-many-attempts, and disabled states.
-- Do not expose OTP content, exact retry limits, exact cooldown duration, provider details, account existence, or security-audit data.
-- Use generic, non-revealing error language.
-
-## Authentication state matrix
+## Authentication patterns
 
 | State | UI behavior |
 |---|---|
-| Default | Clear form, visible labels, primary action enabled when valid. |
-| Loading | Prevent duplicate submission; retain context and announce progress. |
-| Success | Confirm completion and provide one clear next action. |
-| Validation error | Explain correction near the field and in a summary. |
-| Server error | Use a neutral retry message; retain safe entered values. |
-| Invalid OTP | Identify the code as invalid without exposing controls. |
-| Expired OTP | Explain that a new code is needed. |
-| Too many attempts | Explain temporary pause without an exact policy value. |
+| Default | Clear form and enabled primary action when valid. |
+| Invalid sign-in | Use the approved generic message; never distinguish the cause. |
+| OTP invalid | Explain that the code is invalid without exposing limits or provider details. |
+| OTP expired | Explain that a new code is needed. |
+| Too many attempts | Explain a temporary pause without a duration or exact policy. |
 | Session expired | Explain that sign-in is required again. |
-| Disabled | Explain that the action is currently unavailable without revealing cause. |
+| Recovery request | Always use a neutral response regardless of account existence. |
 
-## Responsive rules
+OTP is a single accessible input concept shown as six visual cells. It supports conceptual full-code paste. Design resend and cooldown states as policy slots, not as declared timings.
 
-Desktop must not simply shrink into mobile. Mobile uses one column, compact navigation, an obvious primary action, comfortable touch targets, usable simulator structure, no horizontal overflow, and readable disclosure content. Test 320px, 390px, 768px, 1024px, and 1440px contexts.
+## Navigation and responsive behavior
 
-## Accessibility
+Desktop navigation becomes an accessible compact menu on mobile. Escape closes menus or intentional modal containment. Do not create a focus trap outside a modal. Keep primary actions easy to reach, preserve content order, avoid horizontal overflow, and make buttons full width on mobile when it improves clarity.
 
-Use WCAG 2.2 AA as the target:
+Use deliberate breakpoints: mobile 320–767, tablet 768–1023, desktop 1024+. Verify 320, 390, 768, 1024, and 1440 frames. A two-column hero stacks copy, actions, then the informational simulator; authentication becomes a compact one-column form before brand decoration.
 
-- Contrast: 4.5:1 for normal text; 3:1 for large text, controls, and visible focus treatment.
-- Keyboard: logical order; Escape closes menus/dialogs; no focus traps except intentional modal containment.
-- Semantic hierarchy: one primary page heading and ordered sections/headings.
-- Error feedback: text, icon/shape, and color; never color only.
-- Touch targets: 24×24 CSS px minimum, 44×44 preferred for primary actions.
-- Reduced motion: respect `prefers-reduced-motion`; no essential information relies on animation.
-- Screen readers: meaningful labels, descriptions, error associations, live region for async form feedback, and labelled icon-only controls.
-- Reflow: support browser zoom at 200% without lost content or controls.
+## Accessibility requirements
+
+- Target WCAG 2.2 AA: 4.5:1 normal text and 3:1 large text, controls, and visible focus.
+- Use text, icon/shape, and color together for states; never color alone.
+- Preserve labels, helper text, field-level errors, and error summaries in reading order.
+- Prefer 44 × 44 px targets for primary actions; never design below 24 × 24 px.
+- Support keyboard navigation, 200% zoom/reflow, reduced motion, meaningful screen-reader labels, and live feedback for asynchronous form results.
+- No essential information may exist only inside a bitmap or animation.

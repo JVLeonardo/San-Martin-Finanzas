@@ -1,146 +1,625 @@
-# Home and Authentication Content Architecture
+# Public Home — Final Sprint 1 Content & Hero Direction
 
-Use clear, concrete, professional English. Do not use generic promises such as “Transform your financial future”, “Your dreams start today”, or “The money you deserve”. Do not imply approval, availability, or financial conditions.
+## 1. Objective
 
-## Header
+Design and refine the public Home for San Martín Finanzas as a high-quality Sprint 1 marketing and onboarding entry experience.
 
-Navigation:
+The Home must explain the value proposition clearly, guide users toward account creation or understanding the process, and establish a strong regional financial identity.
 
-- **How it works** — informational anchor.
-- **Loans** — informational anchor explaining the future transparency structure; not an application flow.
-- **Security** — informational anchor.
-- **Help** — informational anchor and future approved support route.
+All visible UI and content must be in **Spanish (Peru)**.
+
+The final result must feel:
+
+- regional
+- trustworthy
+- contemporary
+- premium
+- editorial
+- warm
+- useful
+- human
+- professional
+- memorable
+
+It must NOT feel like:
+
+- generic SaaS
+- crypto
+- cold corporate banking
+- tourism advertising
+- NGO campaign
+- stock-template fintech
+- visually empty corporate layout
+
+---
+
+## 2. Primary Home Direction
+
+This Home should not be treated as a plain informational landing page.
+
+It should feel like a **serious regional fintech / microfinance platform** with emotional resonance and strong visual identity.
+
+The public website must communicate:
+
+- clarity
+- trust
+- responsible finance
+- local understanding
+- digital simplicity
+- visual maturity
+- aspirational progress without aggressive sales tone
+
+The composition must elevate the product and the brand simultaneously.
+
+---
+
+## 3. Hero — Most Important Section
+
+### 3.1 Core intention
+
+The Home hero is the highest-priority section and must be redesigned with stronger art direction.
+
+Use the provided hero reference as directional inspiration.
+
+The goal is NOT to copy it literally, but to capture its strengths:
+
+- strong emotional photography
+- clear left-to-right hierarchy
+- premium and polished layout
+- product relevance through a strong simulator
+- layered composition
+- stronger brand personality
+- higher visual impact
+- more convincing commercial quality
+
+### 3.2 Required structure
+
+Hero should be built as a **3-part integrated composition**:
+
+1. **Left content block**
+2. **Central / background visual storytelling zone**
+3. **Right simulator block**
+
+The final composition should feel unified, not like disconnected cards.
+
+### 3.3 Hero layout direction
+
+#### Left side
+Place:
+
+- eyebrow / small brand statement
+- main headline
+- supporting paragraph
+- trust micro-benefits
+- primary CTA
+- secondary CTA
+
+#### Center / visual zone
+Use:
+
+- approved photography as primary emotional anchor
+- possible soft territorial background or atmosphere
+- optional subtle use of Horizonte behind / around image
+- optional subtle La Ruta to guide eye movement toward CTA or simulator
+
+Photography should feel integrated into the layout, not dropped in as a simple rectangle.
+
+#### Right side
+Place the **simulador informativo / simulador referencial** as a strong product block.
+
+This simulator must have real protagonism.
+
+It should feel:
+
+- useful
+- credible
+- clean
+- polished
+- easy to scan
+- visually important
+- product-centered
+- more than just a side card
+
+### 3.4 Hero visual style
+
+The hero should be visually richer than the first Figma pass.
+
+It should feel closer to an art-directed landing page with:
+
+- stronger depth
+- better layering
+- more visual tension
+- more intentional spacing
+- clearer balance between image and product
+- a premium editorial-financial look
+
+Important:
+
+- The simulator should visually compete with the photography in relevance.
+- The photography should reinforce regional identity and human closeness.
+- The copy should remain clear and compliant.
+- The design should feel aspirational but responsible.
+
+### 3.5 Hero content — recommended Spanish copy
+
+#### Eyebrow
+**Hecho para San Martín, con claridad en cada paso**
+
+Alternative:
+**Finanzas responsables para crecer en San Martín**
+
+#### Main headline options
+Preferred direction:
+**Un camino más claro para tus microfinanzas**
+
+Alternative options:
+- **Financiamiento claro para avanzar con confianza**
+- **Impulsamos tu crecimiento con claridad y cercanía**
+- **Soluciones financieras pensadas para San Martín**
+
+Avoid exaggerated or overly salesy claims.
+
+#### Supporting paragraph
+Recommended direction:
+**San Martín Finanzas está construyendo una experiencia digital regional y formal para ayudarte a entender mejor tu financiamiento antes de tomar una decisión.**
+
+Alternative:
+**Queremos que acceder a información financiera sea más claro, más cercano y más útil para las personas y negocios de San Martín.**
+
+#### Primary CTA
+- **Crear mi cuenta**
+- or **Solicitar mi acceso**
+
+Preferred for Sprint 1:
+**Crear mi cuenta**
+
+#### Secondary CTA
+- **Cómo funciona**
+- or **Conocer el proceso**
+
+Preferred:
+**Cómo funciona**
+
+#### Trust micro-benefits
+Use 3 concise benefits beneath the paragraph or near CTAs:
+
+- **Proceso digital**
+- **Información clara**
+- **Soporte regional**
+
+Or:
+
+- **100% digital**
+- **Claro y responsable**
+- **Enfoque regional**
+
+### 3.6 Hero simulator content
+
+The right-side simulator should be stronger and more useful-looking than the current draft.
+
+It can remain informative if product conditions are not fully approved yet, but it should still look like a key product experience.
+
+Recommended title:
+**Simulador informativo**
+
+Alternative:
+**Simula tu cuota referencial**
+
+Short description:
+**Explora de forma referencial cómo se presentará la información financiera cuando las condiciones aprobadas estén disponibles.**
+
+Suggested fields:
+- Monto solicitado
+- Plazo estimado
+- Cuota referencial
+- Costo estimado
+- Costo total referencial
+
+Possible note:
+**La información final dependerá de la evaluación y condiciones aprobadas.**
+
+Optional product CTA inside simulator:
+**Ver detalle**
+or
+**Conocer el proceso**
+
+If Figma chooses to make it slightly more realistic visually, that is welcome, but it must remain compliant and not misleading.
+
+### 3.7 Hero mobile direction
+
+Mobile hero must keep the same strategic hierarchy, but adapted carefully.
+
+Recommended mobile order:
+
+1. logo / header
+2. eyebrow
+3. headline
+4. supporting paragraph
+5. primary CTA
+6. secondary CTA
+7. photography
+8. simulator
+9. trust note or trust micro-benefits
+
+Important:
+- Mobile must not lose too much richness versus desktop.
+- It should still feel designed, not simplified into a generic stacked layout.
+- Image and simulator should both remain visually meaningful.
+- Maintain strong spacing rhythm and visual balance.
+
+---
+
+## 4. Header
+
+### Desktop header
+Must feel more refined and brand-aligned than the current version.
+
+Recommended structure:
+
+- logo on the left
+- navigation in the middle/right
+- account actions on the right
+
+Recommended navigation:
+- Cómo funciona
+- Seguridad
+- Ayuda
+
+Optional:
+- Nosotros
+
+Primary action:
+- **Crear mi cuenta**
+
+Secondary action:
+- **Iniciar sesión**
+
+Optional tertiary contact utility if handled elegantly:
+- WhatsApp / contact access
+
+Do not overload the header.
+
+### Mobile header
+Use:
+- compact approved logo
+- hamburger menu
+- optional account or access icon if it stays clean
+
+---
+
+## 5. Home sections after Hero
+
+The Home must feel complete and well-structured for Sprint 1.
+
+Recommended sequence:
+
+1. Hero
+2. Value / trust highlights
+3. How it works
+4. Regional context / why San Martín
+5. Financial clarity / transparency section
+6. Security / trust section
+7. Alliances / ecosystem / trust support
+8. FAQ
+9. Final CTA
+10. Footer
+
+---
+
+## 6. Value / Trust Highlights
+
+Directly after the hero, show concise supporting highlights.
+
+Purpose:
+quick reassurance and fast scanning.
+
+Use 3 columns on desktop, stacked cards or list on mobile.
+
+Suggested items:
+- **Proceso digital**  
+  Una experiencia guiada con pasos simples y claros.
+- **Información clara**  
+  Presentamos lo importante antes de cualquier decisión.
+- **Soporte regional**  
+  Diseñado pensando en personas y negocios de San Martín.
+
+Keep this section compact.
+
+---
+
+## 7. How It Works
+
+This section is required and should feel clearer and better designed than the current version.
+
+Use a 3-step structure.
+
+Suggested section label:
+**Proceso**
+
+Suggested heading:
+**Cómo funciona**
+
+Suggested intro:
+**Te acompañamos con un proceso simple, digital y claro.**
+
+Suggested steps:
+
+### Paso 1
+**Crea tu cuenta**  
+Registra tus datos básicos para iniciar tu experiencia digital.
+
+### Paso 2
+**Completa tu información**  
+Comparte la información necesaria para continuar con el siguiente paso.
+
+### Paso 3
+**Recibe una evaluación**  
+Te mostraremos el estado de tu proceso con claridad cuando corresponda.
+
+Important:
+- wording must remain compliant
+- do not promise approval
+- do not imply immediate credit grant if it is not approved for Sprint 1
+
+This section should have a more polished visual rhythm than the current draft.
+
+---
+
+## 8. Regional Identity / “Designed for San Martín”
+
+This section should reinforce why the brand belongs to the region.
+
+Use approved photography and/or Horizonte intelligently.
+
+Suggested heading:
+**Pensada desde San Martín**
+
+Alternative:
+**Diseñada con San Martín en mente**
+
+Suggested paragraph:
+**Nuestro enfoque inicial es regional. Buscamos construir una experiencia financiera más clara, cercana y útil para las personas y negocios de San Martín.**
+
+This section can combine:
+- text block
+- photograph
+- subtle graphic support
+
+It should feel emotional and identity-driven, not decorative.
+
+---
+
+## 9. Financial Clarity / Transparency Section
+
+This section should reinforce clarity and responsible finance.
+
+Suggested label:
+**Claridad**
+
+Suggested heading:
+**Primero entiende. Después decide.**
+
+Suggested paragraph:
+**Queremos que la información importante se presente de manera sencilla y comprensible antes de cualquier decisión.**
+
+Possible supporting bullets:
+- condiciones claras
+- lenguaje simple
+- proceso guiado
+
+Could be paired with:
+- simulator reference details
+- info card
+- simple visual support
+- subtle La Ruta
+
+---
+
+## 10. Security Section
+
+Required for trust.
+
+Suggested label:
+**Seguridad**
+
+Suggested heading:
+**Una experiencia segura comienza con hábitos claros**
+
+Suggested paragraph:
+**Usa siempre los canales oficiales, protege tus datos de acceso y revisa tu información con cuidado.**
+
+Suggested support cards:
+- **Canales oficiales**
+- **Protección de acceso**
+- **Buenas prácticas digitales**
+
+This section should feel calm and useful, not alarmist.
+
+---
+
+## 11. Alliances / Ecosystem Section
+
+Add a section that communicates legitimacy and ecosystem support.
+
+This can be a soft “trust ecosystem” section even if formal partners are not yet defined.
+
+If no real logos are approved, do NOT invent partnerships. Instead frame it as ecosystem / support / future integration.
+
+Suggested label:
+**Confianza**
+
+Suggested heading:
+**Construimos una plataforma con visión de largo plazo**
+
+Suggested paragraph:
+**San Martín Finanzas se prepara para operar con una experiencia digital clara, responsable y conectada con buenas prácticas del ecosistema financiero.**
+
+Possible content directions:
+- compliance mindset
+- digital experience
+- future institutional credibility
+- regional commitment
+
+If actual alliance logos do not exist, use a restrained visual treatment with neutral placeholders or trust principles, not fake partner brands.
+
+---
+
+## 12. FAQ Section
+
+Required.
+
+Suggested label:
+**Ayuda**
+
+Suggested heading:
+**Preguntas frecuentes**
+
+Suggested intro:
+**Resolvemos las dudas más importantes sobre el estado de la plataforma y el proceso digital.**
+
+Recommended FAQ set:
+
+### ¿Para quién está dirigida esta plataforma?
+**La primera etapa está enfocada en personas con conexión verificable con San Martín.**
+
+### ¿Puedo solicitar un préstamo hoy?
+**Sprint 1 presenta la experiencia pública y de autenticación. Las condiciones finales del producto aún están en proceso de aprobación.**
+
+### ¿Qué información podré revisar?
+**Buscamos presentar de forma clara el monto, plazos, costos y otros datos relevantes antes de cualquier decisión.**
+
+### ¿Crear una cuenta significa aprobación?
+**No. Crear una cuenta no implica aprobación ni elegibilidad automática.**
+
+### ¿Cómo se protegerán mis datos?
+**La plataforma está siendo diseñada con buenas prácticas de seguridad y acceso digital.**
+
+You may refine wording, but keep compliant meaning.
+
+---
+
+## 13. Final CTA Section
+
+This section should close the page strongly.
+
+It needs more identity than a generic dark band.
+
+Suggested heading:
+**Empieza tu camino con claridad**
+
+Alternative:
+**Comienza tu experiencia digital con San Martín Finanzas**
+
+Suggested supporting text:
+**Crea tu cuenta y conoce una experiencia financiera pensada para nuestra región.**
 
 Actions:
+- **Crear mi cuenta**
+- **Iniciar sesión**
 
-- **Sign in**
-- **Create my account**
+This section may use:
+- dark brand background
+- subtle La Ruta
+- subtle Topografía or Horizonte
+- clean, premium composition
 
-## Hero
+---
 
-- Eyebrow: `Built for San Martín, with clarity at every step`
-- Headline: `A clearer digital path to responsible microfinance.`
-- Supporting copy: `San Martin Finanzas is building a formal, regional digital experience designed to help you understand the process before you make a decision.`
-- Primary CTA: `Create my account`
-- Secondary CTA: `How it works`
+## 14. Footer
 
-## Conceptual simulator
+The footer should feel custom and brand-owned, not generic.
 
-- Section label: `Information simulator`
-- Heading: `Understand the information before you decide.`
-- Supporting copy: `When product conditions are approved, this space will help present key information clearly.`
-- Disclosure rows: `Amount`, `Term`, `Installment`, `Cost`, `Total` — each displays `Pending approved conditions`.
-- Note: `This is an informational structure, not a financial calculation or offer.`
+Include:
+- logo
+- short brand description
+- navigation groups
+- support links
+- legal placeholders if needed
+- regional reference if appropriate
 
-## Trust strip
+Suggested short description:
+**San Martín Finanzas construye una experiencia digital clara, responsable y cercana para nuestra región.**
 
-- `Digital process` — `A guided experience designed for clear next steps.`
-- `Clear information` — `Key conditions should be understandable before any decision.`
-- `Regional support` — `A platform with an initial focus on San Martín.`
+Suggested footer groups:
 
-## How it works
+### Producto
+- Cómo funciona
+- Seguridad
+- Ayuda
 
-1. `01 — Create your account` — `Start by creating your digital identity.`
-2. `02 — Complete your information` — `Provide the information needed for the next approved step.`
-3. `03 — Receive an evaluation` — `Any future evaluation follows the applicable process and does not guarantee an outcome.`
+### Empresa
+- Nosotros
+- Contacto
 
-## Regional differentiation
+### Legal
+- Términos y condiciones
+- Privacidad
+- Tratamiento de datos
 
-Heading: `Designed with San Martín in mind.`
+### Soporte
+- Preguntas frecuentes
+- Contacto
 
-Body: `The initial focus is regional. That means building a digital experience that values context, clear communication, and responsible processes.`
+If some pages are not yet available, mark them carefully as future or pending only if necessary.
 
-## San Martín identity
+---
 
-Heading: `A regional path, built with care.`
+## 15. Art Direction Rules for Home
 
-Body: `San Martin Finanzas aims to combine a formal digital service with proximity to the people and businesses of San Martín.`
+Use the official brand assets more intentionally.
 
-Use La Ruta as a subtle graphic signature here, not as tourism imagery.
+### Preferred use
+- Horizonte: very strong candidate for hero atmosphere and territorial feeling
+- La Ruta: directional guidance, CTA emphasis, subtle motion path
+- Topografía: restrained secondary texture only
+- approved photography: human and regional anchor
+- approved logos only
 
-## Transparency
+### Avoid
+- using all graphic resources at once
+- decorative overload
+- random blobs / gradients
+- crypto aesthetics
+- generic fintech hero patterns
+- shallow card stacking without composition
+- stock-feeling page structure
 
-Heading: `First understand. Then decide.`
+### Desired outcome
+The Home should feel like a premium regional fintech website with a stronger emotional and visual signature than the current draft.
 
-Body: `Before accepting any future condition, important information should be presented clearly. Product rules are pending approval.`
+---
 
-## Security
+## 16. Mobile Home Rules
 
-Heading: `A secure experience starts with clear habits.`
+The mobile version must be a fully designed adaptation, not a compressed desktop.
 
-Body: `Use official channels, protect your access details, and review information carefully. Specific controls and policies will be communicated when approved and available.`
+It must include:
 
-## Eligibility
+- refined mobile hero
+- strong CTA clarity
+- meaningful simulator presence
+- proper photo placement
+- clear section rhythm
+- FAQs that are easy to scan
+- strong final CTA
+- custom footer / mobile footer behavior
 
-Heading: `An initial regional focus.`
+Use fewer simultaneous visual elements than desktop, but preserve identity and quality.
 
-Body: `The first stage is oriented to people with a verifiable connection to San Martín. Creating an account does not confirm identity, regional connection, eligibility, or approval.`
+The mobile result should still feel premium, brand-led and complete.
 
-## FAQ
+---
 
-- `Who is this platform for?` — `The initial focus is people with a verifiable connection to San Martín. Final requirements are pending approval.`
-- `Can I apply for a loan today?` — `This Sprint 1 experience does not include a loan application flow.`
-- `What information will be shown clearly?` — `When conditions are approved, key product information should be presented before a decision.`
-- `Does creating an account mean I am approved?` — `No. Account creation does not determine eligibility or approval.`
-- `How is my information handled?` — `Approved privacy information will be available through official channels.`
-- `How can I get help?` — `Approved support channels will be published in the institutional footer.`
+## 17. Non-Negotiables
 
-## Final CTA
-
-- Primary: `Create my account`
-- Secondary: `I already have an account`
-
-## Footer
-
-Groups: `Product`, `Help`, `Company`, `Legal`.
-
-Reserve clearly labelled slots for Terms and Conditions, Privacy, Personal Data Processing, approved support channels, and a complaints book when legally applicable. Do not invent legal entity data, contact details, addresses, schedules, or legal text.
-
-## Authentication content
-
-### Login
-
-- Heading: `Sign in to your account`
-- Supporting copy: `Use your registered details to continue.`
-- Identifier label: `Email or phone number`
-- Password label: `Password`
-- CTA: `Sign in`
-- Recovery link: `Forgot your password?`
-- Generic error: `We could not sign you in with these details. Check your information or recover access.`
-- Session expired: `Your session has ended. Sign in again to continue.`
-
-### Register
-
-- Heading: `Create your account`
-- Supporting copy: `Start by creating your digital identity.`
-- Field labels: `Email or phone number`, `Password`, `Confirm password`
-- Required consent: `I agree to the terms required to create and use my account.`
-- Optional consent: `I would like to receive updates when I choose to do so.`
-- CTA: `Continue`
-- Footer: `Already have an account? Sign in`
-
-### Verify OTP
-
-- Heading: `Verify your contact detail`
-- Supporting copy: `Enter the code sent through the approved verification channel.`
-- CTA: `Verify code`
-- Resend: `Send a new code`
-- Invalid: `This code is not valid. Check it and try again.`
-- Expired: `This code has expired. Request a new one to continue.`
-- Too many attempts: `For your security, this action is temporarily paused.`
-
-### Forgot Password
-
-- Heading: `Recover access`
-- Supporting copy: `Enter your registered details and we will guide you through the next step.`
-- CTA: `Continue`
-- Neutral success: `If an account is associated with these details, you will receive instructions to continue.`
-
-### Reset Password
-
-- Heading: `Set a new password`
-- Supporting copy: `Choose a new password to regain access.`
-- Fields: `New password`, `Confirm new password`
-- Policy slot: `Password requirements pending approved provider policy.`
-- CTA: `Update password`
-- Success: `Your password has been updated. You can now sign in.`
+- All visible content in Spanish (Peru)
+- Use approved brand assets only
+- Use approved photography direction
+- Keep a serious and compliant tone
+- Do not imply guaranteed approval
+- Do not restart the file from zero unless necessary
+- Refine and elevate the existing work
+- Strengthen the hero significantly
+- Give the simulator more protagonism in the Home hero
+- Improve overall artistic quality and composition
+- Keep consistency across Home desktop and Home mobile
