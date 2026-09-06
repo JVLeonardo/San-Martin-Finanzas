@@ -1,11 +1,11 @@
 @layer base {
   :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
-    outline: var(--smf-focus-width) solid var(--smf-color-focus);
+    outline: var(--smf-focus-width) solid var(--smf-color-focus-ring);
     outline-offset: var(--smf-focus-offset);
   }
 }
 
 @utility focus-ring {
-  outline: var(--smf-focus-width) solid var(--smf-color-focus);
+  outline: var(--smf-focus-width) solid var(--smf-color-focus-ring);
   outline-offset: var(--smf-focus-offset);
 }

@@ -32,7 +32,11 @@
   --smf-color-text-inverse: var(--smf-color-white);
   --smf-color-border-default: var(--smf-color-border);
   --smf-color-border-emphasis: var(--smf-color-border-strong);
-  --smf-color-focus: var(--smf-color-forest-700);
+  --smf-color-border-focus: var(--smf-color-forest-500);
+  --smf-color-focus-ring: rgb(47 125 87 / 50%);
+  --smf-color-action-primary: var(--smf-color-forest-900);
+  --smf-color-action-primary-hover: var(--smf-color-forest-700);
+  --smf-color-action-secondary: var(--smf-color-surface-secondary);
 
   /* Approved spacing scale */
   --smf-space-2xs: 0.25rem;
@@ -57,8 +61,9 @@
   /* Figma effect roles; numerical values require final visual comparison. */
   --smf-shadow-subtle: 0 1px 2px rgb(14 63 43 / 8%);
   --smf-shadow-card: 0 12px 32px -12px rgb(14 63 43 / 18%);
+  --smf-shadow-focus: 0 0 0 3px var(--smf-color-focus-ring);
   --smf-focus-width: 3px;
-  --smf-focus-offset: 2px;
+  --smf-focus-offset: 0;
 }
 
 @theme static inline {
@@ -95,7 +100,11 @@
   --color-foreground-inverse: var(--smf-color-text-inverse);
   --color-outline: var(--smf-color-border-default);
   --color-outline-strong: var(--smf-color-border-emphasis);
-  --color-focus: var(--smf-color-focus);
+  --color-border-focus: var(--smf-color-border-focus);
+  --color-focus-ring: var(--smf-color-focus-ring);
+  --color-action-primary: var(--smf-color-action-primary);
+  --color-action-primary-hover: var(--smf-color-action-primary-hover);
+  --color-action-secondary: var(--smf-color-action-secondary);
 
   --spacing-2xs: var(--smf-space-2xs);
   --spacing-xs: var(--smf-space-xs);
@@ -117,6 +126,7 @@
 
   --shadow-subtle: var(--smf-shadow-subtle);
   --shadow-card: var(--smf-shadow-card);
+  --shadow-focus: var(--smf-shadow-focus);
 
   --text-display-lg: 3.5rem;
   --text-display-lg--line-height: 4rem;
