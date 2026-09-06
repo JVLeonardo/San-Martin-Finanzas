@@ -21,7 +21,7 @@ export function TermSelector({
     <div className="flex w-full min-w-0 flex-col gap-xs">
       <span className="text-label-md font-semibold text-foreground">Plazo</span>
       <SegmentedControl
-        className="flex w-full min-w-0 [&>label]:min-w-0 [&>label]:flex-1 [&>label]:px-xs sm:[&>label]:px-md"
+        className="flex w-full min-w-0 [&>label]:min-w-0 [&>label]:flex-1 [&>label]:px-xs max-[359px]:[&>label]:px-2xs max-[359px]:[&>label]:text-label-md sm:[&>label]:px-md"
         disabled={disabled}
         label="Seleccionar plazo referencial"
         name={name}

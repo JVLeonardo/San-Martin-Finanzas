@@ -45,7 +45,7 @@ export function Navbar({
     >
       <nav
         aria-label="Navegación principal"
-        className="mx-auto flex min-h-[79px] w-full max-w-[1200px] items-center gap-xl px-xl py-md"
+        className="mx-auto flex min-h-[79px] w-full items-center gap-xl px-xl py-md xl:px-4xl"
       >
         <Link
           aria-label="San Martín Finanzas, inicio"
@@ -55,14 +55,14 @@ export function Navbar({
           <Image
             alt="San Martín Finanzas"
             className="h-auto w-[140px]"
-            height={47}
+            height={140}
             priority
             src={
               dark
                 ? "/brand/logos/logo-horizontal-negative.png"
                 : "/brand/logos/logo-horizontal-positive.png"
             }
-            width={140}
+            width={420}
           />
         </Link>
 

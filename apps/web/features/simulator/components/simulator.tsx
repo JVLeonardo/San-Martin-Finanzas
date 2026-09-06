@@ -22,33 +22,46 @@ import { SimulationSummary } from "./simulation-summary";
 import { TermSelector } from "./term-selector";
 
 export interface SimulatorProps {
-  amountRange: AmountRange;
+  amountRange?: AmountRange;
+  allowContinueWithoutAmount?: boolean;
   className?: string;
   initialAmount?: number | null;
   initialTerm?: string;
   onContinue?: (input: ReferenceSimulationInput) => void;
+  responsiveWidth?: boolean;
   termOptions?: readonly TermOption[];
 }
 
+const VISUAL_SLIDER_RANGE: AmountRange = {
+  max: 100,
+  min: 0,
+  step: 1,
+};
+
 export function Simulator({
+  allowContinueWithoutAmount = false,
   amountRange,
   className,
   initialAmount = null,
   initialTerm,
   onContinue,
+  responsiveWidth = false,
   termOptions = REFERENCE_TERM_OPTIONS,
 }: SimulatorProps) {
   const amountInputId = useId();
   const termName = useId();
   const [amount, setAmount] = useState<number | null>(initialAmount);
   const [term, setTerm] = useState(initialTerm ?? termOptions[0]?.value ?? "");
+  const [visualSliderPosition, setVisualSliderPosition] = useState(40);
   const [showValidation, setShowValidation] = useState(false);
 
-  if (!isAmountRangeValid(amountRange)) {
+  if (amountRange && !isAmountRangeValid(amountRange)) {
     throw new Error("Simulator requires a valid, explicitly provided amount range.");
   }
 
-  const amountIsValid = isAmountWithinRange(amount, amountRange);
+  const amountIsValid = amountRange
+    ? isAmountWithinRange(amount, amountRange)
+    : amount !== null;
   const selectionIsValid = termOptions.some((option) => option.value === term);
   const isReady = amountIsValid && selectionIsValid;
   const projectedInput: ReferenceSimulationInput = {
@@ -62,13 +75,21 @@ export function Simulator({
 
   function updateAmount(nextAmount: number | null) {
     setAmount(nextAmount);
-    setShowValidation(nextAmount !== null && !isAmountWithinRange(nextAmount, amountRange));
+    setShowValidation(
+      Boolean(
+        amountRange &&
+        nextAmount !== null &&
+        !isAmountWithinRange(nextAmount, amountRange),
+      ),
+    );
   }
 
   return (
     <section
       aria-labelledby={`${amountInputId}-title`}
-      className={`w-full min-w-0 max-w-[440px] overflow-hidden rounded-lg border border-outline bg-surface p-md min-[360px]:p-xl ${className ?? ""}`}
+      className={`w-full min-w-0 overflow-hidden rounded-lg border border-outline bg-surface p-md min-[360px]:p-xl ${
+        responsiveWidth ? "max-w-none lg:max-w-[440px]" : "max-w-[440px]"
+      } ${className ?? ""}`}
     >
       <header className="min-w-0">
         <h2
@@ -91,9 +112,18 @@ export function Simulator({
           value={amount}
         />
         <AmountSlider
-          onAmountChange={updateAmount}
-          range={amountRange}
-          value={amount !== null && amountIsValid ? amount : amountRange.min}
+          ariaValueText={
+            amountRange ? undefined : "Posición visual sin límites financieros definidos"
+          }
+          onAmountChange={amountRange ? updateAmount : setVisualSliderPosition}
+          range={amountRange ?? VISUAL_SLIDER_RANGE}
+          value={
+            amountRange
+              ? amount !== null && amountIsValid
+                ? amount
+                : amountRange.min
+              : visualSliderPosition
+          }
         />
       </div>
 
@@ -113,8 +143,12 @@ export function Simulator({
       <Button
         className="mt-lg w-full"
         onClick={() => {
+          if (isReady || allowContinueWithoutAmount) {
+            onContinue?.(projectedInput);
+            return;
+          }
+
           setShowValidation(true);
-          if (isReady) onContinue?.(projectedInput);
         }}
         size="L"
       >

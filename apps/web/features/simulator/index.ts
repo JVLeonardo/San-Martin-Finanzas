@@ -4,6 +4,8 @@ export {
   BreakdownRow,
   SimulationSummary,
   Simulator,
+  SimulatorContinueGate,
+  SimulatorPage,
   TermSelector,
   type AmountInputProps,
   type AmountSliderProps,

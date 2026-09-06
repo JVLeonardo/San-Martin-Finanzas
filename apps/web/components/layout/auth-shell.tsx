@@ -28,7 +28,7 @@ export function AuthShell({
         .filter(Boolean)
         .join(" ")}
     >
-      <div className="mx-auto hidden min-h-svh w-full max-w-[1200px] grid-cols-[minmax(320px,560px)_minmax(0,1fr)] lg:grid">
+      <div className="hidden min-h-svh w-full grid-cols-[minmax(320px,380px)_minmax(0,1fr)] lg:grid xl:grid-cols-[minmax(320px,560px)_minmax(0,1fr)]">
         {showBrandPanel ? (
           <AuthBrandPanel
             description={brandDescription}
@@ -37,16 +37,16 @@ export function AuthShell({
         ) : null}
         <div
           className={[
-            "flex min-w-0 items-center justify-center px-3xl py-4xl",
+            "flex min-w-0 items-center justify-center px-xl py-4xl xl:px-5xl",
             showBrandPanel ? "" : "col-span-2",
           ].join(" ")}
         >
-          <div className="w-full max-w-[480px]">{children}</div>
+          <div className="w-full max-w-[720px]">{children}</div>
         </div>
       </div>
 
       <div className="min-h-svh lg:hidden">
-        <header className="flex min-h-4xl items-center bg-surface-inverse px-md py-sm sm:px-lg">
+        <header className="flex min-h-[104px] items-center justify-center bg-surface-inverse px-lg py-xl">
           <Link
             aria-label="San Martín Finanzas, inicio"
             className="rounded-sm focus-visible:outline-none focus-visible:shadow-focus"
@@ -54,15 +54,15 @@ export function AuthShell({
           >
             <Image
               alt="San Martín Finanzas"
-              className="h-auto w-[120px]"
-              height={40}
+              className="h-auto w-[144px]"
+              height={48}
               priority
               src="/brand/logos/logo-horizontal-negative.png"
-              width={120}
+              width={144}
             />
           </Link>
         </header>
-        <div className="flex min-h-[calc(100svh-64px)] items-center justify-center px-md py-3xl sm:px-lg">
+        <div className="flex min-h-[calc(100svh-104px)] items-start justify-center px-lg py-xl sm:px-xl">
           <div className="w-full max-w-[480px]">{children}</div>
         </div>
       </div>

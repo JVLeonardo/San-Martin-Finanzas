@@ -13,12 +13,14 @@ export interface AmountSliderProps
     InputHTMLAttributes<HTMLInputElement>,
     "max" | "min" | "onChange" | "step" | "type" | "value"
   > {
+  ariaValueText?: string;
   onAmountChange: (amount: number) => void;
   range: AmountRange;
   value: number;
 }
 
 export function AmountSlider({
+  ariaValueText,
   className,
   disabled,
   onAmountChange,
@@ -36,7 +38,7 @@ export function AmountSlider({
       <input
         {...props}
         aria-label="Seleccionar monto referencial"
-        aria-valuetext={formatReferenceAmount(value)}
+        aria-valuetext={ariaValueText ?? formatReferenceAmount(value)}
         className={styles.range}
         disabled={disabled}
         max={range.max}
