@@ -1,0 +1,1219 @@
+{
+  "brand": "San Martín Finanzas",
+  "version": "0.1.0",
+  "generator": "scripts/brand/generate-brand-assets.ps1",
+  "generated": [
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-master-800.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "width": 800,
+      "height": 1000,
+      "format": "PNG",
+      "purpose": "Primary master logo raster derivative",
+      "sha256": "EC847FB83AE16A5C6AF5D25E354B2173F2C30B0D65C7C0090750C02CD87C1DD5"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-vertical-800.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "width": 800,
+      "height": 1000,
+      "format": "PNG",
+      "purpose": "Vertical logo raster derivative",
+      "sha256": "9A25F7D925BB603D468039059639AFEDD281BE77C4C3D09B33B53317E21240A5"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-vertical-600.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "width": 600,
+      "height": 750,
+      "format": "PNG",
+      "purpose": "Vertical logo raster derivative",
+      "sha256": "26D3324FA89EBFA8182D395A06B3B4A51B473389F2280130835C4CE3769BD2A8"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-compact-145.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "width": 145,
+      "height": 181,
+      "format": "PNG",
+      "purpose": "Approved compact/mobile logo for mobile headers",
+      "sha256": "D09C15F62204C5D3025A2921134BE409ED3AF182B1E8AFB905977C2F61792B3E"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-compact-120.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "width": 120,
+      "height": 150,
+      "format": "PNG",
+      "purpose": "Approved compact/mobile logo for mobile headers",
+      "sha256": "69B863406D6E8540EED5B06FD13D4A1E2B89C4C71BA777B00D1DA49329EE5C6E"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-1600.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "width": 1600,
+      "height": 533,
+      "format": "PNG",
+      "purpose": "Horizontal logo raster derivative",
+      "sha256": "FCBF4E9DD9E716048DDF17BF750A3197F5E693E5256B491F4079E522BAB456FD"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-1200.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "width": 1200,
+      "height": 400,
+      "format": "PNG",
+      "purpose": "Horizontal logo raster derivative",
+      "sha256": "573754488F6EBE95D46D4944B787B5D70038303FF963CB1AF6B5134CCDEDF3BA"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-800.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "width": 800,
+      "height": 267,
+      "format": "PNG",
+      "purpose": "Horizontal logo raster derivative",
+      "sha256": "B437A9EBF7D0EA4F254120AA5971E2205A3688EB26E79966ED413D2CA9C2C0A9"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-600.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "width": 600,
+      "height": 200,
+      "format": "PNG",
+      "purpose": "Horizontal logo raster derivative",
+      "sha256": "52D11BB04937C5F814F85FC4E2E0EB7643D8F520A05EAB07FF5394EF688B7F54"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-1024.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 1024,
+      "height": 725,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "4E64CCA7A09AD9E58BB01D8DC7DCF5DA9F7D9D1D887A8CF52E7C1F854675C16B"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-768.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 768,
+      "height": 543,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "618DE1C67374FCFB4F0F5EB93FF5BDC384CEE2A1ABBD163E34224650BDBEB687"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-512.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 512,
+      "height": 362,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "0B27B1076FAF918A175D50257C212539B83843F3ADE5A4AC161CFDC85150050A"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-256.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 256,
+      "height": 181,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "116330C8928016B9C2423224DCE3C24F0B3FF40C24C1FD4282DAC70B25F47C1E"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-128.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 128,
+      "height": 91,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "51C359984F5C7AB446AF5F2838442B33F207E13C2BEDEC8C19DCBE6FF8A2BE52"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-isotype-64.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-isotype-master.png",
+      "width": 64,
+      "height": 45,
+      "format": "PNG",
+      "purpose": "Isotype raster derivative",
+      "sha256": "23B977EFA72F83B14223BC654BFFB1DE51C0A31489413C310EC9942D59F5ABFD"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-1024.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "5CC48004078F94E92240FEDF9A099F3CC091FE729AE6F8FE71E5BA0ECA781D30"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-512.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "25396580ABED8CF54029BEDE60066F469CF8A2E3ADC22A7755040CAF14678E28"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-256.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "2E11E417291EF0F93F3966B8DE7C62932CB27718C88D5872E9A26BA5F63944F9"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-128.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "D95D4382E51CC4F81EE2E879FDDC90D7AD99FE1EF7FDB98489B4A2EF0CB6E55F"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-64.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "B21D2E1CDCAA92117C3B76C311D127FA3E0678C405CBA85F83BD3B2A1F238756"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-48.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 48,
+      "height": 48,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "F0354E30C023F49F84D81D5F88AA2268BC9151751659089F36EE8EA947D22AB6"
+    },
+    {
+      "path": "docs/design/brand/assets/symbols/smf-symbol-32.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-symbol-master.png",
+      "width": 32,
+      "height": 32,
+      "format": "PNG",
+      "purpose": "Reduced symbol raster derivative",
+      "sha256": "8123BC15DF521AB96F623F9ACAF44816C5AA7E0F18A08409A567C566AD0CDE29"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/app/smf-app-icon-512.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-app-icon-master.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "purpose": "App and PWA icon raster derivative",
+      "sha256": "66692653DC9F0750EB2EAD5998C83A73AF5D6751602EA39E151067A1928993B0"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/app/smf-app-icon-192.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-app-icon-master.png",
+      "width": 192,
+      "height": 192,
+      "format": "PNG",
+      "purpose": "App and PWA icon raster derivative",
+      "sha256": "3DEAE7B641AA58FD5685CD3565542B3B1C52677E5AD7B65D3FD5D23CA22BA6C3"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/app/smf-app-icon-128.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-app-icon-master.png",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "purpose": "App and PWA icon raster derivative",
+      "sha256": "4F6138B61A8FBCAB3144C7DE894BC64758BD2D7F83374A74D76E31FDCA417BE1"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/app/smf-app-icon-64.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-app-icon-master.png",
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "purpose": "App and PWA icon raster derivative",
+      "sha256": "E61628C267E7D94DB1BFFDCE3EBA28D8A0F3CF6235EE71C6F5743542965890CA"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/app/smf-app-icon-48.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-app-icon-master.png",
+      "width": 48,
+      "height": 48,
+      "format": "PNG",
+      "purpose": "App and PWA icon raster derivative",
+      "sha256": "C84D3B2DA9582FEC6FE17B778F8CC0B0A10C1EECA01D07B47F2E86E6E7A4060D"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/favicon/favicon-48x48.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-favicon-master.png",
+      "width": 48,
+      "height": 48,
+      "format": "PNG",
+      "purpose": "Browser favicon raster derivative",
+      "sha256": "9D8F288F65B71DC71E51C95FF2D1665F83DD9A711B495DE34A0C058B732605A7"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/favicon/favicon-32x32.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-favicon-master.png",
+      "width": 32,
+      "height": 32,
+      "format": "PNG",
+      "purpose": "Browser favicon raster derivative",
+      "sha256": "228A94FC9853036C8D4DBAAC326B99FCB5E6A30A6B4F15CC2655934868498881"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/favicon/favicon-16x16.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-favicon-master.png",
+      "width": 16,
+      "height": 16,
+      "format": "PNG",
+      "purpose": "Browser favicon raster derivative",
+      "sha256": "14A4D6E5810635626918D722E4F9B872C4BBA01C968939596F849D95728F81E0"
+    },
+    {
+      "path": "docs/design/brand/assets/icons/favicon/favicon.ico",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-favicon-master.png",
+      "width": null,
+      "height": null,
+      "format": "ICO",
+      "purpose": "Multi-resolution browser favicon (16, 32, 48)",
+      "sha256": "649D4AAB496BB5D241BBBA5436939BAF5E97B09D59F132BA2B4C6EE0A23CBB30"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "purpose": "Official human-approved horizontal negative logo",
+      "transformation": "Human-approved flat recolor to #FFFFFF; source alpha and canvas preserved",
+      "sha256": "2E9FD055844C6EE92DC1A762E95907DC47FE9BCD3B93DD22E8C73A0A29506820"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-1600.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "width": 1600,
+      "height": 533,
+      "format": "PNG",
+      "purpose": "Official human-approved horizontal negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "EDD3CB2D346DC67AED3CF5321798E2F11642BBFCB37E1C35EB4236715DA6A19C"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-1200.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "width": 1200,
+      "height": 400,
+      "format": "PNG",
+      "purpose": "Official human-approved horizontal negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "A0D46F275C24B2FE52F3A53B5A052B779D2A6A1BF159A96D0555BAB2AF3DB20D"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-800.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "width": 800,
+      "height": 267,
+      "format": "PNG",
+      "purpose": "Official human-approved horizontal negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "F0F7D3FEA1305B5CFE2151F9D2AE3A94594A977A67897BC72010601D1D9725A0"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-600.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "width": 600,
+      "height": 200,
+      "format": "PNG",
+      "purpose": "Official human-approved horizontal negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "44FC06D7FC95E3A76E51B2DA001C850258FABB84477CC4093FE24DA1311D132A"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "purpose": "Official human-approved compact negative logo",
+      "transformation": "Human-approved flat recolor to #FFFFFF; source alpha and canvas preserved",
+      "sha256": "AD14C00EA77AD46FA3D700E1C15BE574F2719D9E3861B6F58B0E14AEE6324BE6"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative-145.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative.png",
+      "width": 145,
+      "height": 181,
+      "format": "PNG",
+      "purpose": "Official human-approved compact negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "2A15AEA5A877243553760C05B3A10489F382ED8789A6642FE98517A3DAC3F8A8"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative-120.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative.png",
+      "width": 120,
+      "height": 150,
+      "format": "PNG",
+      "purpose": "Official human-approved compact negative logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "292804D6AE123A20F253CAB89523880D7011DF7ED767A3ABE7C352574FBFCA91"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "purpose": "Official human-approved Forest 900 monochrome logo",
+      "transformation": "Human-approved flat recolor to #0E3F2B; source alpha and canvas preserved",
+      "sha256": "8A088BD61ABF8543AB61A312D10857BE344575A11C001CEC987233563D7DBABF"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-1024.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "width": 1024,
+      "height": 1280,
+      "format": "PNG",
+      "purpose": "Official human-approved Forest 900 monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "E7538666FF8ECB6E7FCBF44FB39FF998C1C5F99E47399EC96C6D581F814727C9"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-512.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "width": 512,
+      "height": 640,
+      "format": "PNG",
+      "purpose": "Official human-approved Forest 900 monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "10A6F8013DF13D504E8E4456A54FBE5EA855814CEEF6DCA9385B246682AA529B"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-256.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "width": 256,
+      "height": 320,
+      "format": "PNG",
+      "purpose": "Official human-approved Forest 900 monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "BA2E81FB53F4AC37865F733054383F1544F1AD1BF60C7AA2130EF56E29A891FB"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "purpose": "Official human-approved white monochrome logo",
+      "transformation": "Human-approved flat recolor to #FFFFFF; source alpha and canvas preserved",
+      "sha256": "3FAAF4E4A22D3B3319F4FDBDFFA5351CA12B70C4D1465888DD9CA53485A82B9F"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-1024.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "width": 1024,
+      "height": 1280,
+      "format": "PNG",
+      "purpose": "Official human-approved white monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "73B3E9EFE3D09B916CFFA7ADC9C575BE1D6ADEF11C3B8F9CCAF1EB218F77B7B7"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-512.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "width": 512,
+      "height": 640,
+      "format": "PNG",
+      "purpose": "Official human-approved white monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "9E2C044A79357BDA921B8B22C6E47CA65074B9FCB4D5EF25BF07B95540DE43E9"
+    },
+    {
+      "path": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-256.png",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "width": 256,
+      "height": 320,
+      "format": "PNG",
+      "purpose": "Official human-approved white monochrome logo raster derivative",
+      "transformation": "Proportional downscale from the official canonical flat-color asset",
+      "sha256": "85B234471AAE4E38BBD858EA7F15AF9398FF2666F6AA82B671F649BE5F0165FB"
+    }
+  ],
+  "variantStatus": [
+    {
+      "variant": "compact-mobile",
+      "status": "GENERATED",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "canonicalAsset": null,
+      "derivatives": [
+        "docs/design/brand/assets/logos/raster/smf-logo-compact-145.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-compact-120.png"
+      ],
+      "approval": "Approved identity-system mapping.",
+      "reason": "The approved vertical-without-tagline master exactly matches the approved compact/mobile lockup; only proportional downscaling is applied."
+    },
+    {
+      "variant": "horizontal-negative",
+      "status": "GENERATED",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-horizontal.png",
+      "canonicalAsset": "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+      "derivatives": [
+        "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-1600.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-1200.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-800.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-horizontal-negative-600.png"
+      ],
+      "approval": "Human-approved on 2026-08-29 following visual review.",
+      "reason": "The approved flat-color transformation is integrated into the official reproducible pipeline."
+    },
+    {
+      "variant": "compact-negative",
+      "status": "GENERATED",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "canonicalAsset": "docs/design/brand/assets/logos/raster/smf-logo-compact-negative.png",
+      "derivatives": [
+        "docs/design/brand/assets/logos/raster/smf-logo-compact-negative.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-compact-negative-145.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-compact-negative-120.png"
+      ],
+      "approval": "Human-approved on 2026-08-29 following visual review.",
+      "reason": "The approved flat-color transformation is integrated into the official reproducible pipeline."
+    },
+    {
+      "variant": "monochrome-dark",
+      "status": "GENERATED",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "canonicalAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "derivatives": [
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-1024.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-512.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark-256.png"
+      ],
+      "approval": "Human-approved on 2026-08-29 following visual review.",
+      "reason": "The approved flat-color transformation is integrated into the official reproducible pipeline."
+    },
+    {
+      "variant": "monochrome-light",
+      "status": "GENERATED",
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "canonicalAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "derivatives": [
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-1024.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-512.png",
+        "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light-256.png"
+      ],
+      "approval": "Human-approved on 2026-08-29 following visual review.",
+      "reason": "The approved flat-color transformation is integrated into the official reproducible pipeline."
+    },
+    {
+      "variant": "other-primary-identity-gap",
+      "status": "NOT_APPLICABLE",
+      "sourceMaster": null,
+      "canonicalAsset": null,
+      "derivatives": [],
+      "approval": null,
+      "reason": "No additional functional identity gap was found; previously omitted oversized exports remain correct no-upscale omissions."
+    }
+  ],
+  "omitted": [
+    {
+      "family": "logo-master",
+      "requestedWidth": 2400,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "reason": "Upscaling omitted because master width is 1122 px."
+    },
+    {
+      "family": "logo-master",
+      "requestedWidth": 1600,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "reason": "Upscaling omitted because master width is 1122 px."
+    },
+    {
+      "family": "logo-master",
+      "requestedWidth": 1200,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "reason": "Upscaling omitted because master width is 1122 px."
+    },
+    {
+      "family": "logo-vertical",
+      "requestedWidth": 1600,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "reason": "Upscaling omitted because master width is 1122 px."
+    },
+    {
+      "family": "logo-vertical",
+      "requestedWidth": 1200,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-vertical.png",
+      "reason": "Upscaling omitted because master width is 1122 px."
+    },
+    {
+      "family": "monochrome-dark",
+      "requestedWidth": 128,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "reason": "Omitted because the master-with-tagline lockup is below its approved 240 px minimum and the tagline is not legible."
+    },
+    {
+      "family": "monochrome-dark",
+      "requestedWidth": 64,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-dark.png",
+      "reason": "Omitted because the master-with-tagline lockup is below its approved 240 px minimum and the tagline is not legible."
+    },
+    {
+      "family": "monochrome-light",
+      "requestedWidth": 128,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "reason": "Omitted because the master-with-tagline lockup is below its approved 240 px minimum and the tagline is not legible."
+    },
+    {
+      "family": "monochrome-light",
+      "requestedWidth": 64,
+      "sourceMaster": "docs/design/brand/assets/masters/smf-logo-master.png",
+      "sourceAsset": "docs/design/brand/assets/logos/raster/smf-logo-monochrome-light.png",
+      "reason": "Omitted because the master-with-tagline lockup is below its approved 240 px minimum and the tagline is not legible."
+    }
+  ],
+  "blocked": [],
+  "graphicsGenerator": "scripts/brand/generate-brand-graphics.ps1",
+  "graphicsGenerated": [
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-forest900-1600.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest900",
+      "width": 1600,
+      "height": 533,
+      "format": "PNG",
+      "purpose": "Primary regional route for desktop sections",
+      "colors": "#0E3F2B",
+      "transformation": "Proportional downscale and flat Forest 900 recolor",
+      "sha256": "3418F8A626EB076391C824BC31845303667664EDBD65AA9E8A125F2DFDF36003"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-forest900-800.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest900",
+      "width": 800,
+      "height": 267,
+      "format": "PNG",
+      "purpose": "Primary regional route for standard web sections",
+      "colors": "#0E3F2B",
+      "transformation": "Proportional downscale and flat Forest 900 recolor",
+      "sha256": "A4A1736F803C33C8CA17C98B493E84A597BD125A83CD0A53FBD1EA6F1C0F75F4"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-forest700-1600.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest700",
+      "width": 1600,
+      "height": 533,
+      "format": "PNG",
+      "purpose": "Primary regional route for featured light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor",
+      "sha256": "C647135C3835F5BFF7B1C3248EF6081912106C0D6903FC5CF01B122A15B36CA4"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-forest700-800.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest700",
+      "width": 800,
+      "height": 267,
+      "format": "PNG",
+      "purpose": "Primary regional route for standard light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor",
+      "sha256": "0EE240D733B47D7978700C845319CC2071D9AC1BB77FAA3C12E3A4054C73F4FE"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-white-1600.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-white",
+      "width": 1600,
+      "height": 533,
+      "format": "PNG",
+      "purpose": "Primary regional route for dark sections",
+      "colors": "#FFFFFF",
+      "transformation": "Proportional downscale and flat White recolor",
+      "sha256": "A142005354B2A866F18BA512A45274EBB0448EEA1EC3A7E1D4D5FDC427C28EAC"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-primary-white-800.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-white",
+      "width": 800,
+      "height": 267,
+      "format": "PNG",
+      "purpose": "Primary regional route for standard dark surfaces",
+      "colors": "#FFFFFF",
+      "transformation": "Proportional downscale and flat White recolor",
+      "sha256": "81780CE27A4A80891107ADD85F139FBAC3575E81C88C99B3EF702B21E516BEBB"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-vertical-forest900.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "vertical-forest900",
+      "width": 724,
+      "height": 2172,
+      "format": "PNG",
+      "purpose": "Vertical regional route for tall compositions",
+      "colors": "#0E3F2B",
+      "transformation": "Exact 90-degree rotation and flat Forest 900 recolor",
+      "sha256": "1830624205EC21E1DA1E1B15AF81D2E15656FC596A8DD2DFA793AF33355FF7FA"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-fragment-forest900.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "fragment-forest900",
+      "width": 1040,
+      "height": 420,
+      "format": "PNG",
+      "purpose": "Editorial route fragment",
+      "colors": "#0E3F2B",
+      "transformation": "Fixed crop of approved route geometry and flat Forest 900 recolor",
+      "sha256": "C6839FD3F524203DF1AD9AA885F7706F6F28592828DF57BE33032E176D840472"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/raster/smf-route-microaccent-gold.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "microaccent-gold",
+      "width": 400,
+      "height": 200,
+      "format": "PNG",
+      "purpose": "Microaccent route detail",
+      "colors": "#C79A52",
+      "transformation": "Fixed crop of approved route geometry and flat Earth Gold recolor",
+      "sha256": "A5C66C7C915FE58BC0F1F0810AAF595DE5C3581126B1C77AD3F294283DE5BCFC"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-light-forest700.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "light-forest700",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "purpose": "Topography lines for light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Full approved artwork with flat Forest 700 recolor",
+      "sha256": "6C139EA7F1CC67E5DB2A3B2FBCDFFE50AC36FF09FFE3F68FD672C35E90082D6E"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-light-forest900.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "light-forest900",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "purpose": "Topography lines for high-contrast light surfaces",
+      "colors": "#0E3F2B",
+      "transformation": "Full approved artwork with flat Forest 900 recolor",
+      "sha256": "F7F7B32E1D8E9AEA8F225631F81C65F431BDA6C86754DA0FA7508D38A686EE57"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-dark-white.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "dark-white",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "purpose": "Topography lines for dark surfaces",
+      "colors": "#FFFFFF",
+      "transformation": "Full approved artwork with flat White recolor",
+      "sha256": "1308B709D0F5088ADFC82802733D3347E983B76DE30F6A85AE389CDFAE90F029"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-desktop-forest700-1280.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "desktop-forest700",
+      "width": 1280,
+      "height": 853,
+      "format": "PNG",
+      "purpose": "Desktop topography background",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor",
+      "sha256": "CB4DA861E3836A7A85B72B1903384EF405AB32407A1C077942F865072DB6D11C"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-mobile-forest700.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "mobile-forest700",
+      "width": 768,
+      "height": 1024,
+      "format": "PNG",
+      "purpose": "Mobile topography background",
+      "colors": "#145C3A",
+      "transformation": "Fixed center crop of approved artwork and flat Forest 700 recolor",
+      "sha256": "570CE3CD9C49290C66C4CB69C2B5F46596DDA5F20C27E9ACDB01F832139973A2"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/raster/smf-topography-fragment-forest700.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "fragment-forest700",
+      "width": 768,
+      "height": 512,
+      "format": "PNG",
+      "purpose": "Editorial topography fragment",
+      "colors": "#145C3A",
+      "transformation": "Fixed crop of approved artwork and flat Forest 700 recolor",
+      "sha256": "6F38B288529426BE73A1C6B1BB68258D99A46EC771CB7EC61E251A28C33B9366"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-light-desktop-1600.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "light-desktop-wide",
+      "width": 1600,
+      "height": 700,
+      "format": "PNG",
+      "purpose": "Light horizon for desktop-wide backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Proportional downscale of the full approved artwork",
+      "sha256": "71CA4A1CD9DE86795E2F2F39B6E4A69AB86E2340AFC4346544F2B972B7D94ECE"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-hero.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "hero",
+      "width": 1600,
+      "height": 600,
+      "format": "PNG",
+      "purpose": "Horizon for hero compositions",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize",
+      "sha256": "6DE159E13E26DD21237FA5CBBFCBBF22088604AF3F7E2DB0ED865A3B6DA3BF28"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-cta.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "cta",
+      "width": 1200,
+      "height": 360,
+      "format": "PNG",
+      "purpose": "Horizon for CTA banners",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize",
+      "sha256": "83CDC7DD9834C5FA6894BF11D8E52980CD828C53CB3A3A0C3BD0F137824B723E"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-auth.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "auth",
+      "width": 768,
+      "height": 768,
+      "format": "PNG",
+      "purpose": "Horizon for authentication support panels",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Fixed center crop and proportional resize",
+      "sha256": "E9225ECFB96DA455F6271DF8C45CED7F03A0626255F0CA67B2470872567F5736"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-footer.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "footer",
+      "width": 1600,
+      "height": 400,
+      "format": "PNG",
+      "purpose": "Horizon for footer backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize",
+      "sha256": "13F66C2FDD0C659F1592F77580833363821D356D58C718DE3DE30C43B2E63346"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/raster/smf-horizon-mobile.png",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "mobile",
+      "width": 600,
+      "height": 800,
+      "format": "PNG",
+      "purpose": "Horizon for mobile backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Fixed center crop and proportional resize",
+      "sha256": "F1FF4000DB4717ED3822D0ECD15ACA06ED6EA5E0901A47958F31DC51BEBEEC96"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-forest900-1600.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest900",
+      "width": 1600,
+      "height": 533,
+      "format": "WEBP",
+      "purpose": "Primary regional route for desktop sections",
+      "colors": "#0E3F2B",
+      "transformation": "Proportional downscale and flat Forest 900 recolor; lossless WebP encoding",
+      "sha256": "BB64EAB391A907281B3F7674A642E4FAF7801B41994BE1208A6E7E93E6CE099D"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-forest900-800.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest900",
+      "width": 800,
+      "height": 267,
+      "format": "WEBP",
+      "purpose": "Primary regional route for standard web sections",
+      "colors": "#0E3F2B",
+      "transformation": "Proportional downscale and flat Forest 900 recolor; lossless WebP encoding",
+      "sha256": "FA9D638484614145EBD23D2312E831A973362B39BD7947131CB36136A45CBF55"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-forest700-1600.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest700",
+      "width": 1600,
+      "height": 533,
+      "format": "WEBP",
+      "purpose": "Primary regional route for featured light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "F5F7755EB88DC49BB01641D42E0C945F419193D1CB1A171FA9CE21BADF2C77CE"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-forest700-800.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-forest700",
+      "width": 800,
+      "height": 267,
+      "format": "WEBP",
+      "purpose": "Primary regional route for standard light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "D33B94DED3AE641830356DC3EB0E9628F244004E13DE0DBABF0A8ED1A552836E"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-white-1600.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-white",
+      "width": 1600,
+      "height": 533,
+      "format": "WEBP",
+      "purpose": "Primary regional route for dark sections",
+      "colors": "#FFFFFF",
+      "transformation": "Proportional downscale and flat White recolor; lossless WebP encoding",
+      "sha256": "AB33BB0D46B7D3692A97C32B64ED7E064E973CE2CC8BC8D3F20D1DC76FFE6965"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-primary-white-800.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "primary-white",
+      "width": 800,
+      "height": 267,
+      "format": "WEBP",
+      "purpose": "Primary regional route for standard dark surfaces",
+      "colors": "#FFFFFF",
+      "transformation": "Proportional downscale and flat White recolor; lossless WebP encoding",
+      "sha256": "1E752ED2DD3A5101647FB8A2C8C3F1897603B75024026172E5182DFE87741628"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-vertical-forest900.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "vertical-forest900",
+      "width": 724,
+      "height": 2172,
+      "format": "WEBP",
+      "purpose": "Vertical regional route for tall compositions",
+      "colors": "#0E3F2B",
+      "transformation": "Exact 90-degree rotation and flat Forest 900 recolor; lossless WebP encoding",
+      "sha256": "E4565F85265091F2BB567B887B2C79E533DFC9B903300F0BB83C902A42D5D73D"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-fragment-forest900.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "fragment-forest900",
+      "width": 1040,
+      "height": 420,
+      "format": "WEBP",
+      "purpose": "Editorial route fragment",
+      "colors": "#0E3F2B",
+      "transformation": "Fixed crop of approved route geometry and flat Forest 900 recolor; lossless WebP encoding",
+      "sha256": "481D268EC40A4AEE29FFC4B20BFD0A0995B179CC48FB0E75BD919EE66ECB2828"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/route/web/smf-route-microaccent-gold.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "family": "route",
+      "variant": "microaccent-gold",
+      "width": 400,
+      "height": 200,
+      "format": "WEBP",
+      "purpose": "Microaccent route detail",
+      "colors": "#C79A52",
+      "transformation": "Fixed crop of approved route geometry and flat Earth Gold recolor; lossless WebP encoding",
+      "sha256": "06CF2870D9498DB34B47EA8BD1C3CED58BC954C2E946D129DE3743054EE9C762"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-light-forest700.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "light-forest700",
+      "width": 1536,
+      "height": 1024,
+      "format": "WEBP",
+      "purpose": "Topography lines for light surfaces",
+      "colors": "#145C3A",
+      "transformation": "Full approved artwork with flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "C7C67175C8A743B93F8E1D4AE1C37BF30B305BE0DC666519C56BEA533056792F"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-light-forest900.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "light-forest900",
+      "width": 1536,
+      "height": 1024,
+      "format": "WEBP",
+      "purpose": "Topography lines for high-contrast light surfaces",
+      "colors": "#0E3F2B",
+      "transformation": "Full approved artwork with flat Forest 900 recolor; lossless WebP encoding",
+      "sha256": "2836C0BFE917FA33065EEAD89D9A8BEC9C9245C4FB027841FBBEDED8F51F9001"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-dark-white.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "dark-white",
+      "width": 1536,
+      "height": 1024,
+      "format": "WEBP",
+      "purpose": "Topography lines for dark surfaces",
+      "colors": "#FFFFFF",
+      "transformation": "Full approved artwork with flat White recolor; lossless WebP encoding",
+      "sha256": "DCEF6AB092CC33992CD8547739B916C0BAAD9763D9BB76A607A025758A9EDAF8"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-desktop-forest700-1280.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "desktop-forest700",
+      "width": 1280,
+      "height": 853,
+      "format": "WEBP",
+      "purpose": "Desktop topography background",
+      "colors": "#145C3A",
+      "transformation": "Proportional downscale and flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "F8F96A118583D492D681954FF698D754D7CAB33DF954017FC9C5820C1BECE255"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-mobile-forest700.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "mobile-forest700",
+      "width": 768,
+      "height": 1024,
+      "format": "WEBP",
+      "purpose": "Mobile topography background",
+      "colors": "#145C3A",
+      "transformation": "Fixed center crop of approved artwork and flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "FDF26714F161BEC1802DBCB92DBA9E1C72BA703BBF48550E3ED20B703BDB528D"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/topography/web/smf-topography-fragment-forest700.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "family": "topography",
+      "variant": "fragment-forest700",
+      "width": 768,
+      "height": 512,
+      "format": "WEBP",
+      "purpose": "Editorial topography fragment",
+      "colors": "#145C3A",
+      "transformation": "Fixed crop of approved artwork and flat Forest 700 recolor; lossless WebP encoding",
+      "sha256": "F4E35F0AE117E549FD7A9F3330A0B0AB6575F021B6D1D1D7A5791ED65F634074"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-light-desktop-1600.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "light-desktop-wide",
+      "width": 1600,
+      "height": 700,
+      "format": "WEBP",
+      "purpose": "Light horizon for desktop-wide backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Proportional downscale of the full approved artwork; lossless WebP encoding",
+      "sha256": "5B3CF04BC12487919887B29DE5789AF0C195FC889CDB0F3150EDEA2E2CBCF061"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-hero.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "hero",
+      "width": 1600,
+      "height": 600,
+      "format": "WEBP",
+      "purpose": "Horizon for hero compositions",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize; lossless WebP encoding",
+      "sha256": "1E81226AFC1DF4A3B4DDB1BAA520D8C57A7CDEB7CB94BAFAA7D3AD68177D66FC"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-cta.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "cta",
+      "width": 1200,
+      "height": 360,
+      "format": "WEBP",
+      "purpose": "Horizon for CTA banners",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize; lossless WebP encoding",
+      "sha256": "BD4392AB7935EDDE14824636FBE522B1B6A94CD69F085C808A02722D7F90AEE2"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-auth.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "auth",
+      "width": 768,
+      "height": 768,
+      "format": "WEBP",
+      "purpose": "Horizon for authentication support panels",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Fixed center crop and proportional resize; lossless WebP encoding",
+      "sha256": "84DC0CA0872F76F2D6E91C49A3B17EC2E541263DCAF6D58607A23153D5855FC1"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-footer.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "footer",
+      "width": 1600,
+      "height": 400,
+      "format": "WEBP",
+      "purpose": "Horizon for footer backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Bottom-aligned fixed crop and proportional resize; lossless WebP encoding",
+      "sha256": "7E2858A6F5AF5CEA45967537B02A7C77AF3FC3977D6F53FFF40C392E0A0B76B6"
+    },
+    {
+      "path": "docs/design/brand/assets/graphics/horizon/web/smf-horizon-mobile.webp",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "family": "horizon",
+      "variant": "mobile",
+      "width": 600,
+      "height": 800,
+      "format": "WEBP",
+      "purpose": "Horizon for mobile backgrounds",
+      "colors": "Original approved multicolor palette",
+      "transformation": "Fixed center crop and proportional resize; lossless WebP encoding",
+      "sha256": "4C0681D1D7F34E73A4517B3E6A6CB26BBF4918394D80AAFC0254A5A50C0D5C0F"
+    }
+  ],
+  "graphicsStatus": [
+    {
+      "family": "route",
+      "variant": "primary",
+      "status": "ALREADY_EXISTS",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "reason": "Approved master is the full primary route."
+    },
+    {
+      "family": "route",
+      "variant": "extended",
+      "status": "BLOCKED",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "reason": "Extending the route would require inventing continuation geometry beyond the approved master."
+    },
+    {
+      "family": "route",
+      "variant": "full-gold",
+      "status": "NOT_APPLICABLE",
+      "sourceMaster": "docs/design/brand/assets/graphics/route/smf-route-master.png",
+      "reason": "Earth Gold is reserved for microaccents; no complete gold route is generated."
+    },
+    {
+      "family": "topography",
+      "variant": "subtle-background",
+      "status": "ALREADY_EXISTS",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "reason": "The approved transparent master is reusable; apply presentation opacity in Figma or CSS."
+    },
+    {
+      "family": "topography",
+      "variant": "seamless-extended",
+      "status": "BLOCKED",
+      "sourceMaster": "docs/design/brand/assets/graphics/topography/smf-topography-master..png",
+      "reason": "Creating a seamless or extended pattern would require inventing contour geometry."
+    },
+    {
+      "family": "horizon",
+      "variant": "light",
+      "status": "ALREADY_EXISTS",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "reason": "Approved multicolor master is the light horizon source."
+    },
+    {
+      "family": "horizon",
+      "variant": "dark",
+      "status": "BLOCKED",
+      "sourceMaster": "docs/design/brand/assets/graphics/horizon/smf-horizon-master.png",
+      "reason": "A flat recolor would collapse approved terrain layers and the road; a faithful dark variant requires a dedicated approved master."
+    }
+  ],
+  "graphicsOmitted": [],
+  "graphicsBlocked": [
+    {
+      "family": "route",
+      "variant": "extended",
+      "status": "BLOCKED",
+      "reason": "Extending the route would require inventing continuation geometry beyond the approved master."
+    },
+    {
+      "family": "topography",
+      "variant": "seamless-extended",
+      "status": "BLOCKED",
+      "reason": "Creating a seamless or extended pattern would require inventing contour geometry."
+    },
+    {
+      "family": "horizon",
+      "variant": "dark",
+      "status": "BLOCKED",
+      "reason": "A flat recolor would collapse approved terrain layers and the road; a faithful dark variant requires a dedicated approved master."
+    }
+  ]
+}
