@@ -6,6 +6,10 @@
 
 No implementar todo el sitio desde Figma en una sola tarea.
 
+## Approved architecture
+
+La estructura modular por capas vigente está documentada en `docs/architecture/frontend-nextjs-architecture.md` y aceptada mediante `docs/adr/ADR-013-nextjs-modular-layered-architecture.md`. Materializarla incrementalmente; no crear carpetas vacías ni capas futuras sin un consumidor real.
+
 ## Approved Sprint 1 visual exception
 
 El Simulator y las rutas `/simulador` y `/simulador/continuar` están autorizados en Sprint 1 solo como frontend visual referencial. Usar estados simulados y datos de demostración claramente aislados. No implementar fórmulas, persistencia, endpoints, scoring, elegibilidad, solicitud de crédito ni otras decisiones funcionales de Sprint 2. La autenticación también permanece simulada hasta la etapa de Backend Integration.
