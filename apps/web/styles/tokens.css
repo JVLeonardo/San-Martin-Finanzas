@@ -1,0 +1,147 @@
+:root {
+  /* Brand primitives */
+  --smf-color-forest-900: #0e3f2b;
+  --smf-color-forest-700: #145c3a;
+  --smf-color-forest-500: #2f7d57;
+  --smf-color-earth-gold: #c79a52;
+  --smf-color-warm-white: #f7f4ee;
+  --smf-color-white: #ffffff;
+  --smf-color-surface-subtle: #f2efe9;
+  --smf-color-surface-secondary: #eaf2ed;
+  --smf-color-ink: #24312b;
+  --smf-color-muted: #66736d;
+  --smf-color-border: #dce5df;
+  --smf-color-border-strong: #a8bfb0;
+  --smf-color-success: #1a7a3d;
+  --smf-color-error: #c53030;
+  --smf-color-warning: #b8860b;
+  --smf-color-info: #2563eb;
+
+  /* Semantic color roles */
+  --smf-color-brand-primary: var(--smf-color-forest-700);
+  --smf-color-brand-strong: var(--smf-color-forest-900);
+  --smf-color-brand-soft: var(--smf-color-forest-500);
+  --smf-color-accent: var(--smf-color-earth-gold);
+  --smf-color-background: var(--smf-color-warm-white);
+  --smf-color-surface: var(--smf-color-white);
+  --smf-color-surface-muted: var(--smf-color-surface-subtle);
+  --smf-color-surface-brand: var(--smf-color-surface-secondary);
+  --smf-color-surface-inverse: var(--smf-color-forest-900);
+  --smf-color-text: var(--smf-color-ink);
+  --smf-color-text-muted: var(--smf-color-muted);
+  --smf-color-text-inverse: var(--smf-color-white);
+  --smf-color-border-default: var(--smf-color-border);
+  --smf-color-border-emphasis: var(--smf-color-border-strong);
+  --smf-color-focus: var(--smf-color-forest-700);
+
+  /* Approved spacing scale */
+  --smf-space-2xs: 0.25rem;
+  --smf-space-xs: 0.5rem;
+  --smf-space-sm: 0.75rem;
+  --smf-space-md: 1rem;
+  --smf-space-lg: 1.5rem;
+  --smf-space-xl: 2rem;
+  --smf-space-2xl: 2.5rem;
+  --smf-space-3xl: 3rem;
+  --smf-space-4xl: 4rem;
+  --smf-space-5xl: 5rem;
+  --smf-space-6xl: 6rem;
+  --smf-space-7xl: 7.5rem;
+
+  /* Approved radius scale */
+  --smf-radius-sm: 0.5rem;
+  --smf-radius-md: 0.75rem;
+  --smf-radius-lg: 1rem;
+  --smf-radius-xl: 1.25rem;
+
+  /* Figma effect roles; numerical values require final visual comparison. */
+  --smf-shadow-subtle: 0 1px 2px rgb(14 63 43 / 8%);
+  --smf-shadow-card: 0 12px 32px -12px rgb(14 63 43 / 18%);
+  --smf-focus-width: 3px;
+  --smf-focus-offset: 2px;
+}
+
+@theme static inline {
+  --font-sans: var(--font-source-sans-3);
+  --font-display: var(--font-cormorant-garamond);
+
+  --color-forest-900: var(--smf-color-forest-900);
+  --color-forest-700: var(--smf-color-forest-700);
+  --color-forest-500: var(--smf-color-forest-500);
+  --color-earth-gold: var(--smf-color-earth-gold);
+  --color-warm-white: var(--smf-color-warm-white);
+  --color-surface-subtle: var(--smf-color-surface-subtle);
+  --color-surface-secondary: var(--smf-color-surface-secondary);
+  --color-ink: var(--smf-color-ink);
+  --color-muted: var(--smf-color-muted);
+  --color-border: var(--smf-color-border);
+  --color-border-strong: var(--smf-color-border-strong);
+  --color-success: var(--smf-color-success);
+  --color-error: var(--smf-color-error);
+  --color-warning: var(--smf-color-warning);
+  --color-info: var(--smf-color-info);
+
+  --color-brand-primary: var(--smf-color-brand-primary);
+  --color-brand-strong: var(--smf-color-brand-strong);
+  --color-brand-soft: var(--smf-color-brand-soft);
+  --color-accent: var(--smf-color-accent);
+  --color-background: var(--smf-color-background);
+  --color-surface: var(--smf-color-surface);
+  --color-surface-muted: var(--smf-color-surface-muted);
+  --color-surface-brand: var(--smf-color-surface-brand);
+  --color-surface-inverse: var(--smf-color-surface-inverse);
+  --color-foreground: var(--smf-color-text);
+  --color-foreground-muted: var(--smf-color-text-muted);
+  --color-foreground-inverse: var(--smf-color-text-inverse);
+  --color-outline: var(--smf-color-border-default);
+  --color-outline-strong: var(--smf-color-border-emphasis);
+  --color-focus: var(--smf-color-focus);
+
+  --spacing-2xs: var(--smf-space-2xs);
+  --spacing-xs: var(--smf-space-xs);
+  --spacing-sm: var(--smf-space-sm);
+  --spacing-md: var(--smf-space-md);
+  --spacing-lg: var(--smf-space-lg);
+  --spacing-xl: var(--smf-space-xl);
+  --spacing-2xl: var(--smf-space-2xl);
+  --spacing-3xl: var(--smf-space-3xl);
+  --spacing-4xl: var(--smf-space-4xl);
+  --spacing-5xl: var(--smf-space-5xl);
+  --spacing-6xl: var(--smf-space-6xl);
+  --spacing-7xl: var(--smf-space-7xl);
+
+  --radius-sm: var(--smf-radius-sm);
+  --radius-md: var(--smf-radius-md);
+  --radius-lg: var(--smf-radius-lg);
+  --radius-xl: var(--smf-radius-xl);
+
+  --shadow-subtle: var(--smf-shadow-subtle);
+  --shadow-card: var(--smf-shadow-card);
+
+  --text-display-lg: 3.5rem;
+  --text-display-lg--line-height: 4rem;
+  --text-display-md: 2.75rem;
+  --text-display-md--line-height: 3.25rem;
+  --text-heading-1: 2.25rem;
+  --text-heading-1--line-height: 2.75rem;
+  --text-heading-2: 1.875rem;
+  --text-heading-2--line-height: 2.375rem;
+  --text-heading-3: 1.5rem;
+  --text-heading-3--line-height: 2rem;
+  --text-heading-4: 1.25rem;
+  --text-heading-4--line-height: 1.75rem;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.5rem;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.25rem;
+  --text-label-md: 0.875rem;
+  --text-label-md--line-height: 1.25rem;
+  --text-label-sm: 0.75rem;
+  --text-label-sm--line-height: 1rem;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.125rem;
+  --text-button: 1rem;
+  --text-button--line-height: 1.5rem;
+}
