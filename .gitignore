@@ -21,7 +21,7 @@ services/api/.mvn/wrapper/maven-wrapper.jar
 Thumbs.db
 
 # Documentation
-docs
+docs/oficial/
 
 # Local Figma handoff
 figma-agent/
