@@ -14,6 +14,7 @@ export type TextLinkProps = LinkProps &
   emphasis?: "primary" | "secondary";
   leadingIcon?: ReactNode;
   size?: "M" | "S";
+  tone?: "default" | "inverse";
   trailingIcon?: ReactNode;
 };
 
@@ -24,15 +25,20 @@ export function TextLink({
   emphasis = "primary",
   leadingIcon,
   size = "M",
+  tone = "default",
   trailingIcon,
   ...props
 }: TextLinkProps) {
   const classes = cn(
     "inline-flex items-center gap-2xs rounded-sm p-[2px] font-semibold transition-colors focus-visible:outline-none focus-visible:shadow-focus",
     size === "S" ? "text-label-sm" : "text-label-md",
-    emphasis === "primary"
-      ? "text-brand-strong hover:bg-surface-muted"
-      : "text-foreground-muted hover:bg-surface-muted hover:text-foreground",
+    tone === "inverse" && emphasis === "primary"
+      ? "text-foreground-inverse hover:bg-white/10"
+      : tone === "inverse"
+        ? "text-foreground-inverse/75 hover:bg-white/10 hover:text-foreground-inverse"
+        : emphasis === "primary"
+          ? "text-brand-strong hover:bg-surface-muted"
+          : "text-foreground-muted hover:bg-surface-muted hover:text-foreground",
     disabled && "cursor-not-allowed text-foreground-muted",
     className,
   );
